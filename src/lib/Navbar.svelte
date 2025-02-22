@@ -1,6 +1,7 @@
 <script lang="ts">
     import { onMount } from "svelte";
     import { themeChange } from "theme-change";
+    import { base } from '$app/paths';
 
     onMount(() => {
         themeChange(false);
@@ -38,7 +39,7 @@
     </div>
     <div class="navbar-end">
         <ul class="menu menu-horizontal">
-            <li><a class="rounded" href="/CV_2025.pdf" download>Resumé</a></li>
+            <li><a class="rounded-lg text-primary dark:text-white" href="{base}/CV_2025.pdf" download>Resume</a></li>
         </ul>
         <label class="swap swap-rotate">
             <input type="checkbox" data-toggle-theme="lofi,black" />

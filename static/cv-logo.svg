@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 466.76 498.78">
+  <defs>
+    <style>
+      .cls-1 {
+        font-family: FiraCodeNF-Reg, 'FiraCode Nerd Font';
+        font-size: 170.77px;
+      }
+
+      .cls-2 {
+        fill: #fff;
+      }
+    </style>
+  </defs>
+  <g>
+    <rect class="cls-2" x="3" y="3.29" width="460.76" height="492.2" rx="22.83" ry="22.83"/>
+    <path d="M440.93,6.29c10.93,0,19.83,8.89,19.83,19.83v446.54c0,10.93-8.89,19.83-19.83,19.83H25.83c-10.93,0-19.83-8.89-19.83-19.83V26.12C6,15.19,14.89,6.29,25.83,6.29h415.11M440.93.29H25.83C11.56.29,0,11.86,0,26.12v446.54C0,486.92,11.56,498.49,25.83,498.49h415.11c14.26,0,25.83-11.56,25.83-25.83V26.12c0-14.26-11.56-25.83-25.83-25.83h0Z"/>
+  </g>
+  <text class="cls-1" transform="translate(189.51 444.79) scale(1.04 1)"><tspan x="0" y="0">CV</tspan></text>
+</svg>

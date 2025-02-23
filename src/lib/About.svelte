@@ -4,10 +4,11 @@
     
     <div class="hero">
       <div class="hero-content flex-col lg:flex-row-reverse">
-        <img
-          src="https://avatar.iran.liara.run/public/boy"
-          class="max-w-sm shadow-2xl mask mask-squircle" 
-          alt="Profile" />
+        <div class="avatar">
+          <div class="mask mask-square w-96 h-96">
+            <img src="https://avatar.iran.liara.run/public/boy" alt="Profile" />
+          </div>
+        </div>
         <div>
           <div class="py-6 text-lg leading-relaxed space-y-4">
             <p>

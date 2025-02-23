@@ -35,12 +35,10 @@
         <li><a class="rounded" href="#experience">Experience</a></li>
         <li><a class="rounded" href="#projects">Projects</a></li>
         <li><a class="rounded" href="#contact">Contact</a></li>
+        <li><a class="rounded" href="{base}/CV_2025.pdf" download>Download CV</a></li>
       </ul>
     </div>
     <div class="navbar-end">
-        <ul class="menu menu-horizontal">
-            <li><a class="rounded-lg text-primary dark:text-white" href="{base}/CV_2025.pdf" download>Resume</a></li>
-        </ul>
         <label class="swap swap-rotate">
             <input type="checkbox" data-toggle-theme="lofi,black" />
             <svg class="swap-off h-6 w-6" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">

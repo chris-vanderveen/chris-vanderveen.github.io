@@ -15,10 +15,10 @@
           <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"> <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1" d="M4 6h16M4 12h8m-8 6h16" /> </svg>
         </div>
         <ul class="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow">
-          <li><a class="rounded" href="#about">About</a></li>
-          <li><a class="rounded" href="#experience">Experience</a></li>
-          <li><a class="rounded" href="#projects">Projects</a></li>
-          <li><a class="rounded" href="#contact">Contact</a></li>
+          <li><a class="rounded" on:click|preventDefault={() => document.getElementById('about')?.scrollIntoView({ behavior: 'smooth' })} href="#about">About</a></li>
+          <li><a class="rounded" on:click|preventDefault={() => document.getElementById('experience')?.scrollIntoView({ behavior: 'smooth' })} href="#experience">Experience</a></li>
+          <li><a class="rounded" on:click|preventDefault={() => document.getElementById('projects')?.scrollIntoView({ behavior: 'smooth' })} href="#projects">Projects</a></li>
+          <li><a class="rounded" on:click|preventDefault={() => document.getElementById('contact')?.scrollIntoView({ behavior: 'smooth' })} href="#contact">Contact</a></li>
         </ul>
       </div>
       <div class="relative h-10 w-32 ml-4">
@@ -31,10 +31,10 @@
     </div>
     <div class="navbar-center hidden lg:flex">
       <ul class="menu menu-horizontal px-1">
-        <li><a class="rounded" href="#about">About</a></li>
-        <li><a class="rounded" href="#experience">Experience</a></li>
-        <li><a class="rounded" href="#projects">Projects</a></li>
-        <li><a class="rounded" href="#contact">Contact</a></li>
+        <li><a class="rounded" on:click|preventDefault={() => document.getElementById('about')?.scrollIntoView({ behavior: 'smooth' })} href="#about">About</a></li>
+        <li><a class="rounded" on:click|preventDefault={() => document.getElementById('experience')?.scrollIntoView({ behavior: 'smooth' })} href="#experience">Experience</a></li>
+        <li><a class="rounded" on:click|preventDefault={() => document.getElementById('projects')?.scrollIntoView({ behavior: 'smooth' })} href="#projects">Projects</a></li>
+        <li><a class="rounded" on:click|preventDefault={() => document.getElementById('contact')?.scrollIntoView({ behavior: 'smooth' })} href="#contact">Contact</a></li>
         <li><a class="rounded" href="{base}/CV_2025.pdf" download>Download CV</a></li>
       </ul>
     </div>

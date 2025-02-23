@@ -1,5 +1,5 @@
 <div id="about" class="min-h-screen bg-gradient-to-b from-base-100 to-base-200 font-inter scroll-mt-16">
-  <div class="flex w-full flex-col">
+  <div class="flex w-full flex-col pt-10">
     <div class="divider text-4xl font-regular before:bg-base-content/30 after:bg-base-content/30">About Me</div>
     
     <div class="hero">

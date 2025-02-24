@@ -12,7 +12,7 @@
         <div>
           <div class="py-6 text-lg leading-relaxed space-y-4">
             <p>
-              I'm a third-year Computing Science student at the University of Alberta with a passion for technology. My coursework has given me hands-on experience in various areas, but I've found a particular passion for systems programming. Classes like Operating Systems and Computer Architecture have let me dive deep into languages such as Rust and C.
+              I'm a third-year Computing Science student at the University of Alberta with a passion for technology. My coursework has given me hands-on experience in various areas, but I've found a particular passion for systems programming. Classes like Operating Systems and Computer Architecture have let me dive deep into languages such as C and in my free time I've been learning Rust.
             </p>
             
             <p>I've also broadened my skills in other areas:</p>

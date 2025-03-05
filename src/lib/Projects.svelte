@@ -1,6 +1,6 @@
-<div id="experience" class="min-h-screen bg-gradient-to-b from-base-200 to-base-100 font-inter scroll-mt-16">
+<div id="projects" class="min-h-screen bg-gradient-to-b from-base-100 to-base-200 font-inter scroll-mt-16">
     <div class="flex w-full flex-col pt-10">
-      <div class="divider text-4xl font-regular before:bg-base-content/30 after:bg-base-content/30">Experience</div>
+      <div class="divider text-4xl font-regular before:bg-base-content/30 after:bg-base-content/30">Projects</div>
       
       <div class="hero">
         <div class="hero-content flex-col lg:flex-row-reverse">
@@ -9,16 +9,16 @@
   
       <svg 
         on:click={() => {
-          const projectsSection = document.getElementById('projects');
-          if (projectsSection) {
-            projectsSection.scrollIntoView({ behavior: 'smooth' });
+          const contactSection = document.getElementById('contact');
+          if (contactSection) {
+            contactSection.scrollIntoView({ behavior: 'smooth' });
           }
         }}
         on:keydown={(e) => {
           if (e.key === 'Enter' || e.key === ' ') {
-            const projectsSection = document.getElementById('experience');
-            if (projectsSection) {
-              projectsSection.scrollIntoView({ behavior: 'smooth' });
+            const contactSection = document.getElementById('contact');
+            if (contactSection) {
+              contactSection.scrollIntoView({ behavior: 'smooth' });
             }
           }
         }}

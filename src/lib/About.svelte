@@ -56,7 +56,7 @@
       stroke-width="2" 
       stroke-linecap="round" 
       stroke-linejoin="round" 
-      class="mx-auto cursor-pointer hover:stroke-primary transition-colors mt-16"
+      class="mx-auto cursor-pointer sm:hidden hover:stroke-primary transition-colors mt-16"
     >
       <path d="m7 6 5 5 5-5"/>
       <path d="m7 13 5 5 5-5"/>

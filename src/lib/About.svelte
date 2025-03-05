@@ -1,6 +1,10 @@
+<script>
+  import { ChevronsDown } from 'lucide-svelte';
+</script>
+
 <div id="about" class="min-h-screen bg-gradient-to-b from-base-100 to-base-200 font-inter scroll-mt-16">
   <div class="flex w-full flex-col pt-10">
-    <div class="divider text-4xl font-regular before:bg-base-content/30 after:bg-base-content/30">About Me</div>
+    <div class="divider text-4xl font-regular before:bg-gradient-to-l before:from-base-content/30 before:to-transparent after:bg-gradient-to-r after:from-base-content/30 after:to-transparent">About Me</div>
     
     <div class="hero">
       <div class="hero-content flex-col lg:flex-row-reverse">
@@ -29,7 +33,6 @@
         </div>
       </div>
     </div>
-
     <svg 
       on:click={() => {
         const experienceSection = document.getElementById('experience');
@@ -56,7 +59,7 @@
       stroke-width="2" 
       stroke-linecap="round" 
       stroke-linejoin="round" 
-      class="mx-auto cursor-pointer sm:block hover:stroke-primary transition-colors mt-16"
+      class="mx-auto cursor-pointer hidden sm:block hover:stroke-primary transition-colors mt-16"
     >
       <path d="m7 6 5 5 5-5"/>
       <path d="m7 13 5 5 5-5"/>

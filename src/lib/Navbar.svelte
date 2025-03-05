@@ -8,7 +8,7 @@
     });
 </script>
 
-<div class="navbar bg-base-100 drop-shadow-sm px-4 md:px-8 lg:px-16 sticky top-0 z-50" style="font-family: 'Inter', sans-serif;">
+<div class="navbar bg-base-100 drop-shadow-sm px-4 md:px-8 lg:px-16 sticky top-0 z-50">
     <div class="navbar-start">
       <div class="dropdown">
         <div tabindex="0" role="button" class="btn btn-ghost lg:hidden rounded-full">
@@ -60,7 +60,6 @@
   </div>
   
 <style>
-    @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
     @import url('https://fonts.googleapis.com/css2?family=Geist+Mono&display=swap');
 </style>
   

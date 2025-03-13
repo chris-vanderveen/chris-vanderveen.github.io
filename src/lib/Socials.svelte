@@ -5,7 +5,7 @@
 <!-- Desktop: Floating on left side, vertically centered -->
 <div class="fixed left-6 top-1/2 -translate-y-1/2 z-40 hidden md:flex flex-col items-center ml-10">
   <div class="flex flex-col gap-6">
-    <a href="https://github.com/yourusername" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+    <a href="https://github.com/chris-vanderveen" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
       <svg 
         xmlns="http://www.w3.org/2000/svg" 
         width="24" 

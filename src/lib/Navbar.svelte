@@ -34,7 +34,7 @@
         <li><a class="rounded" on:click|preventDefault={() => document.getElementById('about')?.scrollIntoView({ behavior: 'smooth' })} href="#about">About</a></li>
         <li><a class="rounded" on:click|preventDefault={() => document.getElementById('experience')?.scrollIntoView({ behavior: 'smooth' })} href="#experience">Experience</a></li>
         <li><a class="rounded" on:click|preventDefault={() => document.getElementById('projects')?.scrollIntoView({ behavior: 'smooth' })} href="#projects">Projects</a></li>
-        <li><a class="rounded" on:click|preventDefault={() => document.getElementById('contact')?.scrollIntoView({ behavior: 'smooth' })} href="#contact">Contact</a></li>
+        <!-- <li><a class="rounded" on:click|preventDefault={() => document.getElementById('contact')?.scrollIntoView({ behavior: 'smooth' })} href="#contact">Contact</a></li> -->
         <li><a class="rounded" href="{base}/CV_2025.pdf" download>Download CV</a></li>
       </ul>
     </div>

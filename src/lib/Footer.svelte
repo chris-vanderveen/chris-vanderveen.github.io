@@ -4,7 +4,7 @@
   export let linkedinUrl = "https://www.linkedin.com/in/chris-vanderveen/";
   export let githubUrl = "https://github.com/chris-vanderveen";
   export let location = "Edmonton, AB";
-  export let resumeUrl = "/resume.pdf"; // Update with your actual resume path
+  export let resumeUrl = "/CV_2025.pdf"; // Update with your actual resume path
 </script>
 
 <div class="border-t border-base-300 py-10">

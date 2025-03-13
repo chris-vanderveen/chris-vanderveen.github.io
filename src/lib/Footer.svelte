@@ -13,7 +13,7 @@
   <div class="container mx-auto px-[5vw]">
     <div class="max-w-3xl mx-auto">
       <p class="text-lg text-center mb-6">
-        Open to opportunities. Get in touch.
+        I'm open to opportunities. Get in touch.
       </p>
       
       <div class="flex items-center justify-center mb-6">
